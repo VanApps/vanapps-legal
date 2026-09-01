@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Testers - Cultura Etílica</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #080808;
+      --surface: #151515;
+      --surface-alt: #1c1c1c;
+      --text: #f5f1e8;
+      --muted: #c6beb0;
+      --gold: #e2ad3f;
+      --gold-dark: #806020;
+      --border: #5d4722;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at top, #211505 0%, #0b0b0b 38%, #050505 100%);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 48px auto;
+      padding: 40px;
+      background: rgba(21, 21, 21, 0.96);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 16px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .crown {
+      text-align: center;
+      font-size: 64px;
+      margin-bottom: 4px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--gold);
+      text-align: center;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(32px, 7vw, 48px);
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      text-align: center;
+      margin: 8px 0 32px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    h2 {
+      margin-top: 36px;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    strong {
+      color: var(--text);
+    }
+
+    .notice {
+      margin: 28px 0;
+      padding: 18px 20px;
+      background: var(--surface-alt);
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+    }
+
+    .steps {
+      padding-left: 24px;
+    }
+
+    .steps li {
+      margin: 14px 0;
+      padding-left: 6px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      margin-top: 18px;
+      padding: 17px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      transition:
+        transform 0.15s ease,
+        filter 0.15s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.08);
+    }
+
+    .button-primary {
+      background: var(--gold);
+      color: #090909;
+    }
+
+    .button-disabled {
+      background: #2a2a2a;
+      color: #8f8f8f;
+      border: 1px solid #404040;
+      cursor: not-allowed;
+    }
+
+    .small {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #999186;
+      text-align: center;
+    }
+
+    a.text-link {
+      color: var(--gold);
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: #928b80;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 16px auto;
+        padding: 24px;
+      }
+
+      .crown {
+        font-size: 48px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="crown">♛</div>
+
+    <h1>Cultura Etílica</h1>
+
+    <p class="subtitle">
+      Programa de pruebas cerradas para Android
+    </p>
+
+    <div class="notice">
+      <strong>Solo para mayores de 18 años.</strong>
+      Cultura Etílica es un juego social para adultos que incluye referencias
+      frecuentes al consumo de alcohol.
+    </div>
+
+    <h2>Conviértete en tester</h2>
+
+    <p>
+      Estamos preparando Cultura Etílica para su publicación en Google Play
+      y necesitamos verificadores que prueben la aplicación antes del
+      lanzamiento.
+    </p>
+
+    <p>
+      La participación es gratuita. Para completar correctamente el acceso
+      debes utilizar <strong>la misma cuenta de Google</strong> tanto en el
+      grupo de testers como en Google Play.
+    </p>
+
+    <h2>Cómo participar</h2>
+
+    <ol class="steps">
+      <li>
+        Únete al grupo oficial de testers de Cultura Etílica.
+      </li>
+
+      <li>
+        Cuando la prueba esté disponible, vuelve a esta página y pulsa
+        <strong>Unirme a la prueba en Google Play</strong>.
+      </li>
+
+      <li>
+        Acepta participar en la prueba cerrada con la misma cuenta de Google.
+      </li>
+
+      <li>
+        Instala Cultura Etílica desde Google Play y prueba la aplicación.
+      </li>
+
+      <li>
+        Mantente inscrito en la prueba durante al menos 14 días.
+      </li>
+    </ol>
+
+    <a
+      class="button button-primary"
+      href="https://groups.google.com/g/cultura-etilica-testers"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      1. Unirme al grupo de testers
+    </a>
+
+    <p class="small">
+      Grupo: cultura-etilica-testers@googlegroups.com
+    </p>
+
+    <div
+      class="button button-disabled"
+      aria-disabled="true"
+    >
+      2. Unirme a la prueba en Google Play
+    </div>
+
+    <p class="small">
+      Este botón se habilitará cuando la versión de prueba esté publicada.
+    </p>
+
+    <h2>Comentarios</h2>
+
+    <p>
+      Si encuentras un problema durante la prueba, puedes comunicarlo al
+      equipo de VanApps. Más adelante añadiremos también el canal oficial
+      de comentarios de la versión de prueba.
+    </p>
+
+    <h2>Privacidad</h2>
+
+    <p>
+      Puedes consultar la
+      <a
+        class="text-link"
+        href="./privacy.html"
+      >
+        Política de Privacidad de Cultura Etílica
+      </a>.
+    </p>
+
+    <footer>
+      © 2026 VanApps — Cultura Etílica
+    </footer>
+  </main>
+</body>
+</html>
