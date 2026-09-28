@@ -99,7 +99,7 @@
 
   <p>
     <strong>Última actualización:</strong>
-    21 de septiembre de 2026
+    28 de septiembre de 2026
   </p>
 
   <p>
@@ -206,15 +206,35 @@
   </p>
 
   <p>
-    Cuatro Sellos no solicita actualmente autorización mediante
-    App Tracking Transparency para acceder al identificador
-    publicitario IDFA.
+    En iOS, Cuatro Sellos utiliza App Tracking Transparency (ATT)
+    cuando corresponde antes de permitir actividades de seguimiento
+    que requieran autorización de Apple.
   </p>
 
   <p>
-    La ausencia de dicha autorización no impide que Google Mobile Ads
-    trate otros datos o identificadores permitidos por iOS de acuerdo
-    con la configuración de privacidad y consentimiento aplicable.
+    Cuando el usuario ha otorgado el consentimiento de privacidad
+    necesario para usos publicitarios que pueden implicar seguimiento,
+    iOS puede mostrar posteriormente la solicitud del sistema
+    App Tracking Transparency.
+  </p>
+
+  <p>
+    Si el usuario rechaza el consentimiento correspondiente en el
+    flujo de privacidad, Cuatro Sellos no solicita autorización ATT
+    como parte de ese mismo flujo.
+  </p>
+
+  <p>
+    Si el usuario no concede autorización mediante App Tracking
+    Transparency, Cuatro Sellos continúa funcionando y no utiliza
+    el identificador publicitario IDFA para realizar seguimiento.
+  </p>
+
+  <p>
+    Google Mobile Ads puede seguir proporcionando publicidad limitada
+    o no personalizada cuando esté permitido por las decisiones de
+    consentimiento del usuario, la configuración de privacidad y las
+    reglas de la plataforma.
   </p>
 
   <p>
@@ -235,6 +255,24 @@
     Cuando la legislación aplicable o la ubicación del usuario lo
     requieran, Cuatro Sellos utiliza herramientas de consentimiento
     proporcionadas por Google mediante User Messaging Platform (UMP).
+  </p>
+
+  <p>
+    Las decisiones realizadas por el usuario en el flujo de
+    consentimiento se respetan antes de solicitar permisos adicionales
+    relacionados con seguimiento.
+  </p>
+
+  <p>
+    En iOS, si el consentimiento otorgado permite usos que pueden
+    implicar seguimiento, la aplicación puede solicitar posteriormente
+    autorización mediante App Tracking Transparency.
+  </p>
+
+  <p>
+    Si el usuario rechaza el consentimiento necesario para esos usos,
+    la aplicación no vuelve a solicitar autorización para seguimiento
+    dentro del mismo flujo.
   </p>
 
   <p>
@@ -294,6 +332,7 @@
     <li>mantener el estado local de las partidas;</li>
     <li>mostrar y medir publicidad cuando corresponda;</li>
     <li>gestionar decisiones de consentimiento;</li>
+    <li>gestionar permisos relacionados con seguimiento en iOS;</li>
     <li>obtener información técnica sobre rendimiento;</li>
     <li>detectar errores y problemas técnicos;</li>
     <li>mantener la seguridad del servicio;</li>
@@ -324,8 +363,9 @@
     </li>
 
     <li>
-      Apple, mediante App Store y StoreKit, para distribución y
-      compras dentro de la aplicación.
+      Apple, mediante App Tracking Transparency, App Store y StoreKit,
+      para permisos de seguimiento, distribución y compras dentro de
+      la aplicación.
     </li>
   </ul>
 
